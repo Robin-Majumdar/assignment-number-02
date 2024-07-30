@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+.inter-primary-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.pinyon-script-regular{
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+}  
+
+body{
+    margin: 0 auto;
+    background-color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
+}
+.border-background-color{
+    margin-bottom: 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+/* Share styles is hear */
+.display-flex{
+    display: flex;
+}
+.secondary-bg{
+    padding: 2px 10px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50px;
+}
+
+.description,
+.bmi-description,
+.team-description{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: justify;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+}
+
+.habit-title,
+.bmi-title,
+.team-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;  
+}
+
+
+/* Button Area Is Hear */
+.primary-btn{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+}
+.secondary-btn{
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+}
+
+
+
+/* NAV + HEADER SECTION IS START HEAR */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.navbar{
+    margin: 0 auto;
+    width:1200px;
+    height: auto;
+}
+
+.banner-container{
+    margin: 0 auto;
+    width:1200px;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+    text-align: justify;
+}
+.brand{
+    color: rgb(255, 69, 0);
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.image-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box-number-one{
+    display: flex;
+    gap: 10px;
+    margin-top: -140px;
+    margin-left: -90px;
+    padding: 15px;
+    align-items: center;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+	backdrop-filter: blur(5px) ;
+	background: rgba(48, 48, 48, 0.54);
+}
+.box-number-two{
+    display: flex;
+    gap: 10px;
+    margin-top: -420px;
+    margin-left: 150px;
+    padding: 15px;
+    align-items: center;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    backdrop-filter: blur(5px) brightness(150%) contrast(200%) ;
+	background: rgba(48, 48, 48, 0.54);
+}
+#bol{
+    border: none;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+	background: rgb(230, 83, 60);
+}
+#number{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(250, 250, 249);
+}
+#text{
+    font-weight: 400;
+    font-size: 0.8rem;
+	color: rgba(239, 237, 232, 0.65);
+}
+
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navbar{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    gap: 25px;
+}
+.banner-title{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+/*  <!--  Habits section start is Hear --> */
+
+
+
+/*  <!-- Run an Extra Mile Easily Start is Hear --> */
+
+
+
+/*  <!-- BMI Calculator Start is Hear --> */
+
+/*  <!-- Meet Our Team Start Is Hear --> */
+
+/* <!-- footer section is start Hear --> */
+
