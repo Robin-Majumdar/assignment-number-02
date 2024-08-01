@@ -63,6 +63,7 @@ body{
 
 /* Button Area Is Hear */
 .primary-btn{
+    margin-left: 20px;
     cursor: pointer;
     font-weight: 400;
     font-size: 1rem;
@@ -137,7 +138,9 @@ nav li a{
 }
 
 .banner-container{
+    border: 2px solid yellowgreen;
     margin: 0 auto;
+    padding: 20px;
     width:1200px;
     height: auto;
     align-items: center;
