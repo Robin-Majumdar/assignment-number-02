@@ -311,10 +311,14 @@ nav li a{
 
     /*   <!--  Habits section start is Hear --> */
     .habit-container{
+        margin: 0 auto;
         width: 100%;
         height: auto;
         padding: 10px;
-        margin: 0 auto;
+        align-items: center;
+    }
+    .description{
+        width: 90%;
     }
     .habit-sub-container-two{
         display: flex;
@@ -326,7 +330,7 @@ nav li a{
         margin-bottom: 20px;
     }
     .habit-sub-container-two p {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 10px;
         text-align: justify;
