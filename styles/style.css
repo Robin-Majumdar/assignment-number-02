@@ -253,7 +253,36 @@ nav li a{
 }
 
 /*  <!-- Run an Extra Mile Easily Start is Hear --> */
-
+.extra-mile-container{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+    max-width:1200px;
+    height: 350px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+}
+.extra-mile-title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.extra-mile-description{
+    width: 90%;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+    text-align: justify;
+}
+.extra-mile-img img{
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
 
 
 /*  <!-- BMI Calculator Start is Hear --> */
@@ -335,4 +364,22 @@ nav li a{
         padding: 10px;
         text-align: justify;
     }
+
+    /*  <!-- Run an Extra Mile Easily Start is Hear --> */
+    .extra-mile-container{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .extra-mile-title{
+        text-align: center;
+    }
+    .extra-mile-img img{
+        margin-top: 20px;
+        margin-right: 50px;
+        width: 400px;
+    }
+
+
 }
