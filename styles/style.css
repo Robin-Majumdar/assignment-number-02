@@ -97,6 +97,14 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.brand{
+    color: rgb(255, 69, 0);
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+}
 
 nav ul li{
     list-style: none;
@@ -136,24 +144,19 @@ nav li a{
     justify-content: space-between;
 }
 .banner-title{
+    margin-left: 20px;
     font-weight: 600;
     font-size: 4rem;
 }
 .banner-description{
+    margin-left: 20px;
     width: 350px;
     font-weight: 400;
     font-size: 1rem;
     color: rgb(128, 128, 128);
     text-align: justify;
 }
-.brand{
-    color: rgb(255, 69, 0);
-    margin-left: 20px;
-    padding: 5px 10px;
-    font-weight: 600;
-    font-size: 2rem;
-    cursor: pointer;
-}
+
 
 .image-box{
     display: flex;
