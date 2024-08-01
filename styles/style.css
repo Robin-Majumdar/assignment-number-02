@@ -214,7 +214,43 @@ nav li a{
 
 /*  <!--  Habits section start is Hear --> */
 
+.habit-container{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width:1200px;
+    height: 600px;
+    color: rgb(255, 255, 255);
+}
 
+.habit-sub-container-two{
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.habit-sub-container-two> div> img{
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 50%;
+}
+.habit-sub-container-two p{
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.habit-sub-title{
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.habit-description{
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(128, 128, 128); 
+}
 
 /*  <!-- Run an Extra Mile Easily Start is Hear --> */
 
@@ -266,10 +302,33 @@ nav li a{
     }
     .box-number-one{
         margin-top: -140px;
-        margin-left: -40px;
+        margin-left: -30px;
     }
     .box-number-two{
         margin-top: -400px;
         margin-left: 200px;
+    }
+
+    /*   <!--  Habits section start is Hear --> */
+    .habit-container{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .habit-sub-container-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .habit-sub-container-two > div {
+        margin-bottom: 20px;
+    }
+    .habit-sub-container-two p {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: justify;
     }
 }
