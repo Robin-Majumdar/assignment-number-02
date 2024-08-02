@@ -310,7 +310,89 @@ nav li a{
 
 
 /*  <!-- BMI Calculator Start is Hear --> */
+.bmi-container{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+    width: auto;
+    height: 400px;
+    justify-content: space-around;
+    background: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+}
 
+.bmi-cal-sub-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.bmi-cal-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+    text-align: justify;
+}
+.bmi-table-data,
+.bmi-cal-system{
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 50%;
+}
+.bmi-table-data table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.bmi-table-data table,
+.bmi-table-data th,
+.bmi-table-data td{
+    border: 1px solid rgb(68, 68, 68);
+}
+.bmi-table-data th,
+.bmi-table-data td{
+    padding: 10px;
+    text-align: left;
+}
+.bmi-table-data th{
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+.bmi-table-data td{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgb(128, 128, 128);
+}
+.bmi-cal-system form{
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.bmi-cal-system input,
+.bmi-cal-system select{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+}
+#factor{
+    grid-column: span 2;
+}
+.bmi-cal-system button{
+    width: 60%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
 /*  <!-- Meet Our Team Start Is Hear --> */
 
 /* <!-- footer section is start Hear --> */
@@ -396,6 +478,7 @@ nav li a{
         align-items: center;
     }
     .extra-mile-title{
+        margin-left: 10px;
         text-align: center;
     }
     .extra-mile-description{
@@ -403,11 +486,30 @@ nav li a{
         height: auto;
         padding: 0px;
     }
+    .join-now{
+        padding: 10px 145px;
+    }
     .extra-mile-img img{
         margin-top: 20px;
         margin-bottom: 20px;
         width: 100%;
     }
 
+    /*  <!-- BMI Calculator Start is Hear --> */
+    .bmi-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+    .bmi-table-data,
+    .bmi-cal-system{
+        width: 400px;
+        margin: 10px 0px;
+    }
+    .bmi-description{
+    width: 90%;
+    }
 
 }
