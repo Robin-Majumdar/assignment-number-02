@@ -20,7 +20,7 @@
 
 body{
     margin: 0 auto;
-    background-color: rgb(14, 13, 13);
+    background-color: rgba(14, 13, 13, 0.973);
     color: rgb(255, 255, 255);
 }
 .border-background-color{
@@ -43,16 +43,15 @@ body{
 .bmi-description,
 .team-description{
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 70%;
     text-align: justify;
-    padding: 10px;
+    padding: 5px;
     font-weight: 400;
     font-size: 1rem;
     color: rgb(128, 128, 128);
 }
 
-.habit-title,
 .bmi-title,
 .team-title{
     text-align: center;
@@ -139,6 +138,7 @@ nav li a{
 
 .banner-container{
     margin: 0 auto;
+    margin-top: 20px;
     width:1200px;
     height: auto;
     align-items: center;
@@ -181,7 +181,8 @@ nav li a{
     display: flex;
     gap: 10px;
     margin-top: -420px;
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-right: 20px;
     padding: 15px;
     align-items: center;
 	border: 1px solid rgba(255, 255, 255, 0.1);
@@ -219,34 +220,42 @@ nav li a{
     margin-top: 25px;
     margin-bottom: 25px;
     width:1200px;
-    height: 600px;
+    height: auto;
     color: rgb(255, 255, 255);
 }
 
+.habit-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 2rem;  
+}
 .habit-sub-container-two{
     text-align: center;
     margin-top: 30px;
     justify-content: space-around;
 }
+
+
 .habit-sub-container-two> div> img{
     border: 2px solid rgb(128, 128, 128);
     border-radius: 50%;
 }
-.habit-sub-container-two p{
-    width: 90%;
-    height: 100px;
-    padding: 10px;
-    text-align: justify;
-}
 
 .habit-sub-title{
     margin: 0 auto;
+    margin: 10px;
     padding: 10px;
     font-weight: 500;
     font-size: 1rem;
 }
 .habit-description{
     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 100px;
+    text-align: justify;
     font-weight: 400;
     font-size: 1rem;
     color: rgb(128, 128, 128); 
@@ -257,9 +266,8 @@ nav li a{
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 30px;
     max-width:1200px;
-    height: 350px;
+    height: auto;
     border-radius: 10px;
     align-items: center;
     justify-content: space-between;
@@ -267,11 +275,14 @@ nav li a{
     color: rgb(255, 255, 255);
 }
 .extra-mile-title{
+    margin-right: 10px;
+    margin-left: 20px;
     font-weight: 700;
     font-size: 2rem;
 }
 .extra-mile-description{
-    width: 90%;
+    margin-left: 20px;
+    width: 80%;
     padding: 5px;
     font-weight: 400;
     font-size: 1rem;
@@ -279,9 +290,22 @@ nav li a{
     text-align: justify;
 }
 .extra-mile-img img{
+    margin-right: 20px;
     width: 300px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
+}
+.join-now{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -343,7 +367,6 @@ nav li a{
         margin: 0 auto;
         width: 100%;
         height: auto;
-        padding: 10px;
         align-items: center;
     }
     .description{
@@ -361,24 +384,29 @@ nav li a{
     .habit-sub-container-two p {
         width: 90%;
         height: auto;
-        padding: 10px;
         text-align: justify;
     }
 
     /*  <!-- Run an Extra Mile Easily Start is Hear --> */
     .extra-mile-container{
         margin: 0 auto;
-        width: 100%;
-        height: auto;
+        margin-top: 25px;
+        width: 460px;
         flex-direction: column;
+        align-items: center;
     }
     .extra-mile-title{
         text-align: center;
     }
+    .extra-mile-description{
+        width: 90%;
+        height: auto;
+        padding: 0px;
+    }
     .extra-mile-img img{
         margin-top: 20px;
-        margin-right: 50px;
-        width: 400px;
+        margin-bottom: 20px;
+        width: 100%;
     }
 
 
