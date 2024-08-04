@@ -609,7 +609,7 @@ hr{
     }
     .bmi-table-data,
     .bmi-cal-system{
-        width: 90%;
+        width: 80%;
         margin: 10px 0px;
     }
     .bmi-description{
@@ -623,7 +623,7 @@ hr{
         padding: 0px;
     }
     .team-description{
-        width: 90%;
+        width: 80%;
         padding: 5px;
     }
     .team-section-one,
