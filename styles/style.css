@@ -609,8 +609,7 @@ hr{
     }
     .bmi-table-data,
     .bmi-cal-system{
-        width: 80%;
-        /* width: 380px; */
+        width: 90%;
         margin: 10px 0px;
     }
     .bmi-description{
@@ -644,8 +643,12 @@ hr{
         margin-left: 30px;
         flex-direction: column;
     }
+    .footer-description{
+        width: 90%;
+
+    }
     hr{
-        width: 80%;
+        width: 90%;
     }
     #copyright{
          margin-top: 10px;
