@@ -576,7 +576,8 @@ hr{
     .extra-mile-container{
         margin: 0 auto;
         margin-top: 25px;
-        width: 390px;
+        width: 90%;
+        /* width: 390px; */
         flex-direction: column;
         align-items: center;
     }
@@ -610,7 +611,8 @@ hr{
     .bmi-table-data,
     .bmi-cal-system{
         width: 80%;
-        margin: 10px 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .bmi-description{
         width: 90%;
@@ -623,7 +625,7 @@ hr{
         padding: 0px;
     }
     .team-description{
-        width: 80%;
+        width: 90%;
         padding: 5px;
     }
     .team-section-one,
