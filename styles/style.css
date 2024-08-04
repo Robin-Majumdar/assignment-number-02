@@ -452,6 +452,52 @@ nav li a{
 }
 /* <!-- footer section is start Hear --> */
 
+#footer{
+    margin-top: 50px;
+    align-items: center;
+    width: auto;
+	height: 400px;
+    background-color:rgb(39, 37, 50);
+}
+.footer-container{
+    justify-content: space-around;
+}
+.footer-logo-title{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgb(255, 69, 0);
+}
+.footer-description{
+    width: 400px;
+    margin-top: -50px;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    color: rgb(128, 128, 128)
+}
+.footer-sub-container-tow> h3{
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.footer-sub-container-tow> p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(128, 128, 128);
+}
+hr{
+    width: 1200px;
+    border: 0.5px solid rgb(128, 128, 128);
+}
+#copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128);
+}
 
 
 /* Responsive lay out and design */
@@ -563,7 +609,8 @@ nav li a{
     }
     .bmi-table-data,
     .bmi-cal-system{
-        width: 350px;
+        width: 80%;
+        /* width: 380px; */
         margin: 10px 0px;
     }
     .bmi-description{
@@ -584,6 +631,25 @@ nav li a{
     .team-section-two{
     flex-direction: column;
     align-items: center;
+    }
+
+    /* <!-- footer section is start Hear --> */
+    #footer{
+        width: 100%;
+        padding: 0px;
+        height: auto;
+    }
+    
+    .footer-container{
+        margin-left: 30px;
+        flex-direction: column;
+    }
+    hr{
+        width: 80%;
+    }
+    #copyright{
+         margin-top: 10px;
+        padding: 10px;
     }
 
 }
