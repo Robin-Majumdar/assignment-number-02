@@ -530,7 +530,7 @@ nav li a{
     .extra-mile-container{
         margin: 0 auto;
         margin-top: 25px;
-        width: 380px;
+        width: 390px;
         flex-direction: column;
         align-items: center;
     }
@@ -563,7 +563,7 @@ nav li a{
     }
     .bmi-table-data,
     .bmi-cal-system{
-        width: 400px;
+        width: 390px;
         margin: 10px 0px;
     }
     .bmi-description{
@@ -571,19 +571,19 @@ nav li a{
     }
 
         /*  <!-- Meet Our Team Start Is Hear --> */
-        
-        .team-sub-container-two{
-            width: 400px;
-            padding: 0px;
-        }
-        .team-description{
-            width: 90%;
-            padding: 5px;
-        }
-        .team-section-one,
-        .team-section-two{
-        flex-direction: column;
-        align-items: center;
-        }
+
+    .team-sub-container-two{
+        width: 400px;
+        padding: 0px;
+    }
+    .team-description{
+        width: 90%;
+        padding: 5px;
+    }
+    .team-section-one,
+    .team-section-two{
+    flex-direction: column;
+    align-items: center;
+    }
 
 }
