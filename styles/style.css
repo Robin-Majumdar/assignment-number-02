@@ -23,20 +23,10 @@ body{
     background-color: rgba(14, 13, 13, 0.973);
     color: rgb(255, 255, 255);
 }
-.border-background-color{
-    margin-bottom: 20px;
-    border: 2px solid green;
-    border-radius: 5px;
-}
 
 /* Share styles is hear */
 .display-flex{
     display: flex;
-}
-.secondary-bg{
-    padding: 1px 10px;
-    background-color: rgb(230, 83, 60);
-    border-radius: 50px;
 }
 
 .description,
@@ -82,6 +72,11 @@ body{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 10px 25px;
+}
+.secondary-bg{
+    padding: 1px 10px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50px;
 }
 
 
@@ -158,7 +153,6 @@ nav li a{
     text-align: justify;
 }
 
-
 .image-box{
     display: flex;
     justify-content: space-between;
@@ -192,6 +186,7 @@ nav li a{
     backdrop-filter: blur(5px) brightness(150%) contrast(200%) ;
 	background: rgba(48, 48, 48, 0.54);
 }
+
 #boll{
     border: none;
     border-radius: 50px;
@@ -262,6 +257,7 @@ nav li a{
 }
 
 /*  <!-- Run an Extra Mile Easily Start is Hear --> */
+
 .extra-mile-container{
     margin: 0 auto;
     margin-top: 25px;
@@ -310,6 +306,7 @@ nav li a{
 
 
 /*  <!-- BMI Calculator Start is Hear --> */
+
 .bmi-container{
     margin: 0 auto;
     margin-top: 25px;
@@ -395,6 +392,64 @@ nav li a{
 }
 /*  <!-- Meet Our Team Start Is Hear --> */
 
+.team-sub-container-two{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+    align-items: center;
+    width:1200px;
+    height: 500;
+    border-radius: 10px;
+    background: rgb(34, 34, 34);
+}
+.team-section-one,
+.team-section-two{
+    justify-content: space-around;
+}
+.team-section-one> div> img{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+.team-section-two> div> img{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.team-section-one> div> h4{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -60px;
+}
+.team-section-one> div> p{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+    color: rgb(155, 154, 154);
+}
+.team-section-two> div> h4{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -60px;
+}
+.team-section-two> div> p{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+    color: rgb(155, 154, 154);
+}
 /* <!-- footer section is start Hear --> */
 
 
@@ -445,6 +500,7 @@ nav li a{
     }
 
     /*   <!--  Habits section start is Hear --> */
+
     .habit-container{
         margin: 0 auto;
         width: 100%;
@@ -470,10 +526,11 @@ nav li a{
     }
 
     /*  <!-- Run an Extra Mile Easily Start is Hear --> */
+
     .extra-mile-container{
         margin: 0 auto;
         margin-top: 25px;
-        width: 400px;
+        width: 380px;
         flex-direction: column;
         align-items: center;
     }
@@ -496,6 +553,7 @@ nav li a{
     }
 
     /*  <!-- BMI Calculator Start is Hear --> */
+
     .bmi-container{
         width: 100%;
         height: auto;
@@ -509,7 +567,23 @@ nav li a{
         margin: 10px 0px;
     }
     .bmi-description{
-    width: 90%;
+        width: 90%;
     }
+
+        /*  <!-- Meet Our Team Start Is Hear --> */
+        
+        .team-sub-container-two{
+            width: 400px;
+            padding: 0px;
+        }
+        .team-description{
+            width: 90%;
+            padding: 5px;
+        }
+        .team-section-one,
+        .team-section-two{
+        flex-direction: column;
+        align-items: center;
+        }
 
 }
